@@ -2,17 +2,12 @@
 
 
 {% block content %}
-    <ul>
+  
 
-        
-            <li>{{ message.text }}</li>
-       
-        {% endfor %}
-    </ul>
     <div class="list-group">
         {% for message in message_list  %}
 
-        <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
-
+            <a href="#" class="list-group-item list-group-item-action">{{ message.text }}</a>
+        {% endfor %}
     </div>
 {% endblock content %}
