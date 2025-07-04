@@ -1,3 +1,3 @@
-however .
+anyway .
 starter django.
 for fun
